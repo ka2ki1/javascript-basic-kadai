@@ -1,5 +1,6 @@
 const square = (number) => {
-  console.log(number * number);
+  return number * number;
 };
 
-square(5);
+const result = square(5);
+console.log(result);
